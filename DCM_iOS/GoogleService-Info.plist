@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>775071161712-kr2d60i254pcva6r42n3shj3bgudp66v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.775071161712-kr2d60i254pcva6r42n3shj3bgudp66v</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>775071161712-q36mospbn9ke4s4o404p9d3csolbda14.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBtYEJALwntIjr_g5LEbC0KI-yoyavBIjE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>775071161712</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.tistory.axe-num1.DCM-iOS</string>
+	<key>PROJECT_ID</key>
+	<string>dcm-2020</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dcm-2020.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:775071161712:ios:de33d7c7afaf36480e43b5</string>
+	<key>DATABASE_URL</key>
+	<string>https://dcm-2020.firebaseio.com</string>
+</dict>
+</plist>

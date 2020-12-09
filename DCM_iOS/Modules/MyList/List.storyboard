@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17126"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--List View Controller-->
+        <scene sceneID="TzK-Cw-sO0">
+            <objects>
+                <viewController storyboardIdentifier="ListViewController" id="hW1-Nt-5Q9" customClass="ListViewController" customModule="DCM_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="n7y-7s-fdw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tLq-Jl-Nm4">
+                                <rect key="frame" x="0.0" y="44" width="414" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="ZQ1-vM-g5d"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="대여 목록"/>
+                                    <segment title="구매 신청"/>
+                                </segments>
+                            </segmentedControl>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yQG-J4-XN7">
+                                <rect key="frame" x="0.0" y="89" width="414" height="773"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1O-Rc-ghf">
+                                <rect key="frame" x="172" y="762" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="2Ts-cp-O31"/>
+                                    <constraint firstAttribute="width" constant="70" id="ziP-kT-jhe"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="AddButton"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vBf-05-DLO"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vBf-05-DLO" firstAttribute="trailing" secondItem="tLq-Jl-Nm4" secondAttribute="trailing" id="H6V-WC-k3T"/>
+                            <constraint firstItem="vBf-05-DLO" firstAttribute="trailing" secondItem="yQG-J4-XN7" secondAttribute="trailing" id="SVp-cT-R1b"/>
+                            <constraint firstItem="vBf-05-DLO" firstAttribute="bottom" secondItem="yQG-J4-XN7" secondAttribute="bottom" id="Yk7-2X-vaA"/>
+                            <constraint firstItem="vBf-05-DLO" firstAttribute="bottom" secondItem="G1O-Rc-ghf" secondAttribute="bottom" constant="30" id="eta-HS-OTX"/>
+                            <constraint firstItem="tLq-Jl-Nm4" firstAttribute="leading" secondItem="vBf-05-DLO" secondAttribute="leading" id="fuz-yV-vVv"/>
+                            <constraint firstItem="yQG-J4-XN7" firstAttribute="leading" secondItem="vBf-05-DLO" secondAttribute="leading" id="jV1-6c-Aem"/>
+                            <constraint firstItem="G1O-Rc-ghf" firstAttribute="centerX" secondItem="n7y-7s-fdw" secondAttribute="centerX" id="m9V-GN-jlx"/>
+                            <constraint firstItem="yQG-J4-XN7" firstAttribute="top" secondItem="tLq-Jl-Nm4" secondAttribute="bottom" id="mYT-p3-ZIp"/>
+                            <constraint firstItem="tLq-Jl-Nm4" firstAttribute="top" secondItem="vBf-05-DLO" secondAttribute="top" id="oQY-34-qdN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="submitButton" destination="G1O-Rc-ghf" id="nRl-3w-aJx"/>
+                        <outlet property="tableView" destination="yQG-J4-XN7" id="gaV-yx-r00"/>
+                        <outlet property="topSegmented" destination="tLq-Jl-Nm4" id="cPo-h4-KaM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fkc-Yy-FTo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.681159420289859" y="188.83928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="AddButton" width="70" height="70"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
