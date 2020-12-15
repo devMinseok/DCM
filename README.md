@@ -31,22 +31,10 @@
 ## Feature
 
 ### 기자재 현황
-<div>
-  <img src="/README.assets/피드.png" width="200" style="float: left; margin-right: 20px;"/>
-  <img src="/README.assets/게시물상세.png" width="200"/>
-</div>
 
 ### 내 목록
-<div>
-  <img src="/README.assets/스토어.png" width="200" style="float: left; margin-right: 20px;"/>
-  <img src="/README.assets/상품상세.png" width="200"/>
-</div>
 
 ### 선생님용
-<div>
-  <img src="/README.assets/프로필.png" width="200" style="float: left; margin-right: 20px;"/>
-  <img src="/README.assets/좋아요목록.png" width="200"/>
-</div>
 
 ## Develop Environment
 
