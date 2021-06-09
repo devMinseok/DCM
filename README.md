@@ -74,12 +74,14 @@
 
 - IDE: Xcode12
 - Language: Swift 5
-- Architecture: MVVM-C
+- Architecture: MVVM-C (Model-View-ViewModel-Coordinator)
 
-## Open Source Library
+## Used Library
 
 - [Firebase](https://github.com/firebase/quickstart-ios)
-- [NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView)
-- [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages)
-- [XLPagerTabStrip](https://github.com/xmartlabs/XLPagerTabStrip)
-- [KafkaRefresh](https://github.com/HsiaohuiHsiang/KafkaRefresh)
+- [RxFlow](https://github.com/RxSwiftCommunity/RxFlow)
+- [RxDataSources](https://github.com/RxSwiftCommunity/RxDataSources)
+- [SwiftLint](https://github.com/realm/SwiftLint)
+- [Kingfisher](https://github.com/onevcat/Kingfisher)
+- [Realm](https://github.com/realm/realm-cocoa)
+- [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift)
